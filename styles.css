@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+    padding: 0;
+}
+
+nav {
+    background-color: #BE3144;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    font-family: Poppins, sans-serif;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    align-items: center;
+}
+
+nav li {
+    color: white;
+    font-size: 1.4em;
+}
+
+ul a {
+    margin: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    text-align: center;
+}
+
+.about {
+    background-color: #252628;
+    padding: 17.4vw;
+    margin-bottom: -1.2em;
+}
+
+h2,
+h3,
+h1 {
+    color: white;
+    font-family: Raleway, sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+.about p {
+    font-style: italic;
+    color: #612D36;
+    font-size: 2em;
+    margin-top: -1.09em;
+    font-family: Poppins, sans-serif;
+}
+
+.work {
+    background-color: #45567D;
+    padding: 20em 0;
+}
+
+footer,
+.contact {
+    background-color: #303841;
+    margin-bottom: 0;
+    padding: 12em;
+}
+
+.contact,
+footer {
+    color: white;
+}
+
+.contact ul a {
+    color: white;
+}
+
+footer {
+    border-top: 0.3em solid #BE3144;
+    margin-top: 0;
+    padding: 1em;
+}
